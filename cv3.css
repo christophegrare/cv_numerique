@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  background-color: #928A94;
+  font-size: 30px;
+  color: #101F2B;
+}
+
+ul{
+  list-style: none;
+}
+
+.f1{
+  display: inline-flex;
+  font-size:24px;
+}
+
+a:hover{
+  color: #ff00ff;
+}

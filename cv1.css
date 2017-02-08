@@ -1,0 +1,23 @@
+.f1{
+  background-color:#ff9933;
+}
+
+#word{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  margin-top: 50px;
+}
+
+body{
+  background-color:  #ffcc99;
+  font-size: 22px;
+}
+
+a:hover{
+  color: #ff00ff;
+}

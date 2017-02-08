@@ -1,0 +1,30 @@
+body{
+  background-color: #99dbe4;
+  text-align: center;
+}
+
+h2{
+  color: #0000cc;
+}
+
+#word{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  color:#0000cc;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border: 3px solid blue;
+}
+a:hover{
+  color: #ff00ff;
+}

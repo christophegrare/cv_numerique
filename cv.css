@@ -1,4 +1,36 @@
-h1 {
-  font-size: 20px;
+body{
+  background-color: #ffcc99;
+  font-size: 18px;
+  font-family: cursive, fantasy;
+  color: #0000cc;
+}
+
+h1{
+  font-size: 30px;
+  border: 10px groove #ff0000;
+  font-style: italic;
   text-align: center;
+}
+
+.f1{
+  font-size: 40px;
+  margin: auto;
+}
+
+#word{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: #0000cc;
+}
+
+a:hover{
+  color: #ff00ff;
 }
