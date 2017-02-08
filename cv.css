@@ -34,3 +34,11 @@ a{
 a:hover{
   color: #ff00ff;
 }
+
+.bigToSmall {
+  margin-top:10px;
+  margin-left:400px;
+  margin-right: 50px;
+  height: 180px;
+  -moz-transform:rotate(90deg);
+}

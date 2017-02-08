@@ -8,12 +8,21 @@ body{
 ul{
   list-style: none;
 }
-
-.f1{
-  display: inline-flex;
-  font-size:24px;
-}
-
 a:hover{
   color: #ff00ff;
+}
+
+.f1{
+  font-size: 30px;
+  margin: auto;
+}
+#word{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-size: 30px;
+  color:  #0000cc;
 }

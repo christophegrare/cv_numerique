@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  background-color: #928A94;
+  font-size: 30px;
+  color: #101F2B;
+}
+
+ul{
+  list-style: none;
+}
+a:hover{
+  color: #ff00ff;
+}
+
+.bigToSmall {
+  margin-top:10px;
+  margin-left:300px;
+  margin-right: 300px;
+  height: 200px;
+  -moz-transform:rotate(90deg);
+}
+.f1{
+  font-size: 30px;
+  margin: auto;
+}
+  #word{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
