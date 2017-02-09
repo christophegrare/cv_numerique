@@ -1,5 +1,5 @@
 body{
-  background-color: #ffcc99;
+  background-color: #CF7457;
   font-size: 18px;
   font-family: cursive, fantasy;
   color: #0000cc;
@@ -10,6 +10,9 @@ h1{
   border: 10px groove #ff0000;
   font-style: italic;
   text-align: center;
+  margin: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .f1{

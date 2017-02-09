@@ -1,5 +1,6 @@
 .f1{
-  background-color:#ff9933;
+  margin: auto;
+  font-size: 22px;
 }
 
 #word{
@@ -14,10 +15,21 @@ header{
 }
 
 body{
-  background-color:  #ffcc99;
-  font-size: 22px;
+  background-color: #939E8A;
+  font-size: 24px;
+  color:#A13816;
 }
 
 a:hover{
   color: #ff00ff;
+}
+
+h2{
+  text-align: center;
+  font-size: 26px;
+}
+
+ol{
+  text-align: center;
+
 }
