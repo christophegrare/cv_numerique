@@ -1,47 +1,60 @@
-body{
+.container{
   background-color: #CF7457;
-  font-size: 18px;
+  font-size: 22px;
   font-family: cursive, fantasy;
   color: #0000cc;
+  padding-right: 15px;
+ padding-left: 15px;
+ margin-right: auto;
+ margin-left: auto;
 }
 
-h1{
-  font-size: 30px;
-  border: 10px groove #ff0000;
-  font-style: italic;
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.col-lg-offset-6 {
+  margin-left: 50%;
+}
+.col-lg-offset-3 {
+  margin-left: 50%;
+}
+.col-lg-offset-9 {
+  margin-left: 50%;
+}
+
+body {
+  padding-top: 10px;
+}
+
+[class*="col-"], footer {
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius:20px;
+  line-height: 50px;
   text-align: center;
-  margin: 10px;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-
-.f1{
-  font-size: 40px;
-  margin: auto;
-}
-
-#word{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-ul{
-  list-style: none;
-}
-
-a{
-  color: #0000cc;
-}
-
-a:hover{
-  color: #ff00ff;
-}
+} 
 
 .bigToSmall {
   margin-top:10px;
-  margin-left:400px;
-  margin-right: 50px;
   height: 180px;
-  -moz-transform:rotate(90deg);
 }
